@@ -22,7 +22,9 @@ Buttons  PORTC.1-3 and they are connected as active-low too.
 |red|5&nbsp;V|20&nbsp;mA|1,8&nbsp;V|160&nbsp;Ω|
 |blue|5&nbsp;V|20&nbsp;mA|3&nbsp;V|100&nbsp;Ω|
 
-![and_gates](../../Images/vypocetodporu.PNG)
+![and_gates](../../Images/vypocetodporu.png)
+
+![and_gates](../../Images/led_button.PNG)
 
 ![and_gates](../../Images/22.PNG)
 ### Laboratory
