@@ -11,7 +11,7 @@
 
 ### Preparation to Lab
 
-'''C
+´´´C
 #include <avr/io.h>
 
 // Function declaration (prototype)
@@ -42,7 +42,7 @@ uint16_t calculate(uint8_t x, uint8_t y)
 			      //result = result + (y*y);
     return result;
 }
-'''
+´´´
 
 ## Laboratory
 

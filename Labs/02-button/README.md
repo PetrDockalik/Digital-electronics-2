@@ -24,7 +24,7 @@ Buttons  PORTC.1-3 and they are connected as active-low too.
 
 ![and_gates](../../Images/vypocetodporu.png)
 
-![and_gates](../../Images/led_button.PNG)
+![and_gates](../../Images/led_button.png)
 
 ![and_gates](../../Images/22.PNG)
 ### Laboratory
