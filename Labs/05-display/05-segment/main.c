@@ -29,7 +29,7 @@
 int main(void)
 {
     // Configure SSD signals
-    SEG_init();
+	SEG_init();
 
     // Test of SSD: display number '3' at position 0
     //SEG_update_shift_regs(0b00001101, 0b00010000);
@@ -38,8 +38,8 @@ int main(void)
 	//SEG_update_shift_regs(3, 2);
 	//SEG_update_shift_regs(1, 3);
 
-    /* Configure 16-bit Timer/Counter1*/
-    /* Set prescaler and enable overflow interrupt */
+	 /* Configure 16-bit Timer/Counter1*/
+	 /* Set prescaler and enable overflow interrupt */
 	TIM1_overflow_interrupt_enable();
 	TIM1_overflow_262ms();
 	
@@ -71,7 +71,7 @@ ISR(TIMER1_OVF_vect)
 {
 	static uint8_t snake = 0;
 	SEG_update_shift_regs(snake, 0);
-    snake++;
+	snake++;
 	if (snake>5)
 	{
 		snake=0;
