@@ -19,16 +19,16 @@
 // Active-low digit 0 to 9
 uint8_t segment_value[] = {
 	// abcdefgDP
-	0b00000011,		 // Digit 0
-	0b10011111,      // Digit 1
-	0b00100101,      // Digit 2
-	0b00001101,		 // Digit 3
-	0b10011001,      // Digit 4
-	0b01001001,		 // Digit 5
-	0b01000001,		 // Digit 6
-	0b00011111,		 // Digit 7
-	0b00000001,	     // Digit 8
-	0b00001001		 // Digit 9
+	0b00000011,		// Digit 0
+	0b10011111,		// Digit 1
+	0b00100101,		// Digit 2
+	0b00001101,		// Digit 3
+	0b10011001,		// Digit 4
+	0b01001001,		// Digit 5
+	0b01000001,		// Digit 6
+	0b00011111,		// Digit 7
+	0b00000001,		// Digit 8
+	0b00001001		// Digit 9
 };
 
 // Active-high position 0 to 3
@@ -98,7 +98,7 @@ void SEG_update_shift_regs(uint8_t segments, uint8_t position)
         // Pull CLK low
 
         // Shift "segments"
-        segments = segments >> 1;
+		segments = segments >> 1;
     }
 
     // Loop through the 2nd byte (position)
@@ -124,8 +124,8 @@ void SEG_update_shift_regs(uint8_t segments, uint8_t position)
 		GPIO_write_low(&PORTD,SEGMENT_CLK);
         // Pull CLK low
 
-        // Shift "position"
-        position = position >> 1;
+		// Shift "position"
+		position = position >> 1;
     }
 	GPIO_write_high(&PORTD,SEGMENT_LATCH);
     // Pull LATCH high
@@ -223,6 +223,5 @@ void SEG_clear(void)
 }
 /*--------------------------------------------------------------------*/
 void SEG_clk_2us()
-{
-	
+{	
 }
