@@ -24,7 +24,7 @@ Dále jsou posílány UARTem na Sériový monitor, kdyby zámek měl komunikovat
 
 ### Vývojový diagram aplikace
 
-![and_gates](../../Images/project_diagram.PNG)
+![and_gates](../../Images/project_diagram.png)
 
 ## Code description
 
@@ -76,6 +76,6 @@ Výsledky simulace bych chtěl nejvíce demonstrovat v natočeném videu, kde js
 
 ## References
 
-*Knihovny z předešlých laboratoří [1](https://github.com/PetrDockalik/Digital-electronics-2/tree/master/Labs)
-*Dvojitá podmínka v IF() [2](https://www.itnetwork.cz/cecko/zaklady/cecko-tutroial-podminky-vetveni)
-*Měl jsem stejný projekt ve VHDL [3](https://github.com/PetrDockalik/Digital-electronics-1/tree/master/Labs/09-Projekt)
+* Knihovny z předešlých laboratoří [(1)](https://github.com/PetrDockalik/Digital-electronics-2/tree/master/Labs)
+* Dvojitá podmínka v IF() [(2)](https://www.itnetwork.cz/cecko/zaklady/cecko-tutroial-podminky-vetveni)
+* Měl jsem stejný projekt ve VHDL [(3)](https://github.com/PetrDockalik/Digital-electronics-1/tree/master/Labs/09-Projekt)
